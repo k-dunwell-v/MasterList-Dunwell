@@ -1,0 +1,162 @@
+[
+    {   "nombre":"Circe Grimassi", 
+        "imgref":"../public/circe.jpg", 
+        "otros": ["Angelo Grimassi"], 
+        "nacimiento":-500, 
+        "idiomas":["Español", "Italiano", "Inglés"], 
+        "tipo":"INTJ 9w1", 
+        "estatura":"176cm", 
+        "especie": "Brujo", 
+        "padres":["Desconocido"], 
+        "hermanos": ["Desconocido"], 
+        "pareja": "Reinhardt Cormac", 
+        "hijos": ["Nyx Cormac"]
+    },
+  
+
+    {   "nombre":"Erza Hédervár", 
+        "imgref":"", 
+        "otros": [], 
+        "nacimiento": -500, 
+        "idiomas":["Español", "Italiano", "Inglés"], 
+        "tipo":"ENTJ", 
+        "estatura":"177cm", 
+        "especie": "Mago", 
+        "padres":["Desconocido"], 
+        "hermanos":["Desconocido"], 
+        "pareja": "Ferenc Nádasdy", 
+        "hijos": ["Fredek Nádasdy", "Amaro Nádasdy"]
+    },
+  
+
+    {   "nombre":"Saga Matson", 
+        "imgref":"", 
+        "otros": ["Saga Matsdotter"], 
+        "nacimiento": 867, 
+        "idiomas":["Nórdico", "Español", "Inglés"], 
+        "tipo":"ENTJ", 
+        "estatura":"173cm", 
+        "especie": "Brujo", 
+        "padres":["Desconocido"], 
+        "hermanos":["Desconocido"], 
+        "pareja": "Eileen/Elektra Faeris", 
+        "hijos": []
+    },
+
+  
+    {   "nombre":"Beleth Von Krisch", 
+        "imgref":"", 
+        "otros": ["Bibi"], 
+        "nacimiento": 868, 
+        "idiomas":["Español", "Inglés"], 
+        "tipo":"", 
+        "estatura":"164cm", 
+        "especie": "Brujo", 
+        "padres":["Desconocido"], 
+        "hermanos": "Desconocido", 
+        "pareja": "", 
+        "hijos": []
+    },
+
+  
+    {   "nombre":"Kaarle Samedi", 
+        "imgref":"", 
+        "otros": [], 
+        "nacimiento": 900, 
+        "idiomas":[], 
+        "tipo":"", 
+        "estatura":"", 
+        "especie": "",
+        "padres":[], 
+        "hermanos": [], 
+        "pareja": "", 
+        "hijos": []
+    },
+
+  
+    {   "nombre":"Ferenc Nádasdy Laverne", 
+        "imgref":"", 
+        "otros": ["Caballero oscuro"], 
+        "nacimiento": 978, 
+        "idiomas":["Español", "Inglés"], 
+        "tipo":"ESTJ", 
+        "estatura":"188cm", 
+        "especie": "Mago", 
+        "padres":["Lord Milat Nádasdy", "Lady Auvray Laverne"], 
+        "hermanos": ["Rosalie Laverne"], 
+        "pareja": "Erza Hédervár", 
+        "hijos": ["Fredek Nádasdy", "Amaro Nádasdy"]
+    },
+
+  
+    {   "nombre":"Eric Laverne", 
+        "imgref":"", 
+        "otros": [], 
+        "nacimiento": 1024, 
+        "idiomas":["Nórdico", "Español"], 
+        "tipo":"ESTP", 
+        "estatura":"190cm", 
+        "especie": "Troll", 
+        "padres":["Desconocido"], 
+        "hermanos": ["Desconocido"], 
+        "pareja": "Rosalie Laverne", 
+        "hijos": ["Gustav Laverne"]
+    },
+  
+
+    {   "nombre":"Claude Swain", 
+        "imgref":"", 
+        "otros": [], 
+        "nacimiento": 1026,
+        "idiomas":["Español", "Inglés", "Alemán"], 
+        "tipo":"ISTJ", 
+        "estatura":"188cm", 
+        "especie": "Mago",
+        "padres":["Jerome Swain", "Cassiel Frostvakt"], 
+        "hermanos": ["Lys Swain", "Heller Swain", "Ethan Swain"], 
+        "pareja": "Giles Corey", 
+        "hijos": ["Gilles Swain", "Gwen Swain", "Genevieve Swain"]
+    },
+
+    {   "nombre":"Tanner Hawthorne", 
+        "imgref":"", 
+        "otros": [], 
+        "nacimiento": 1030,
+        "idiomas":[], 
+        "tipo":"", 
+        "estatura":"", 
+        "especie": "",
+        "padres":[], 
+        "hermanos": [], 
+        "pareja": "", 
+        "hijos": []
+    },
+
+    {   "nombre":"Dhalia", 
+        "imgref":"", 
+        "otros": [], 
+        "nacimiento":1035,
+        "idiomas":[] , 
+        "tipo":"INTJ", 
+        "estatura":"167cm", 
+        "especie": "",
+        "padres":[], 
+        "hermanos": [], 
+        "pareja": "Jonas", 
+        "hijos": []
+    },
+
+    {   "nombre":"Helene Wyvrn", 
+        "imgref":"", 
+        "otros": [], 
+        "nacimiento":1035,
+        "idiomas":[], 
+        "tipo":"", 
+        "estatura":"", 
+        "especie": "",
+        "padres":[], 
+        "hermanos": [], 
+        "pareja": "", 
+        "hijos": []
+    }
+]

@@ -1,0 +1,440 @@
+body {
+  background: url("../public/sun-pattern.png");
+  background-blend-mode: multiply;
+  background-color: rgba(76, 85, 110, 0.904);
+  height: 500px;
+  background-position: topleft;
+  background-repeat: repeat;
+  font-family: "Oxygen", sans-serif;
+}
+
+body .log {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  top: 0px;
+  left: 0px;
+  width: auto;
+  min-height: 500px;
+  height: auto;
+  padding-right: 4%;
+  margin: 30%;
+  margin-top: 280px;
+  text-align: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+body .log #user, body .log #pass {
+  height: 50px;
+  border: none;
+  border-radius: 2px;
+  color: #000000;
+  font-size: 17px;
+  display: block;
+  width: 100%;
+  background-color: #fff;
+  padding-left: 10px;
+}
+
+body .log #sub {
+  cursor: pointer;
+  width: 70%;
+  height: 50px;
+  float: none;
+  border-radius: 40px;
+  background-color: #73C2BE;
+  color: #FFFCFF;
+  font-size: 17px;
+  line-height: 20px;
+  border: none;
+}
+
+body .main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  border-radius: 10px;
+  background-color: #ffffffd3;
+  top: 0px;
+  left: 0px;
+  width: auto;
+  min-height: 500px;
+  height: auto;
+  padding: 15px;
+}
+
+body .main .menu {
+  list-style-type: none;
+  overflow: hidden;
+  position: inherit;
+  width: 220px;
+  height: auto;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+body .main .menu .menuBut, body .main .menu .here {
+  float: left;
+  text-align: center;
+  text-decoration: none;
+  font-weight: 400;
+  border-radius: 12px;
+  padding: 5px;
+  margin: 5px;
+  line-height: 2;
+  cursor: pointer;
+  border: solid 1px #9988889f;
+}
+
+body .main .menu img:hover {
+  border: solid 1px #FFFCFF;
+}
+
+body .main #infobox {
+  border-collapse: collapse;
+  border: solid 1px #9988889f;
+  position: relative;
+  width: 50px;
+  height: auto;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+body .main #infobox tr:nth-child(odd) {
+  background-color: #99888823;
+}
+
+body .main #infobox #searchbar {
+  height: 30px;
+  text-align: center;
+  font-size: large;
+  border: none;
+  background-color: transparent;
+  position: inherit;
+}
+
+body .main #infobox .dropdownlist {
+  display: none;
+  position: absolute;
+  overflow: auto;
+  border: 1px solid #ddd;
+  text-align: left;
+  font-size: 16px;
+  width: 100%;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+}
+
+body .main #infobox .dropdownlist ul {
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px;
+}
+
+body .main #infobox .dropdownlist ul li a {
+  border: 1px solid #ddd;
+  margin-top: -1px;
+  background-color: rgba(255, 255, 255, 0.623);
+  padding: 12px;
+  text-decoration: none;
+  font-size: 15px;
+  color: black;
+  display: block;
+  cursor: pointer;
+}
+
+body .main #infobox .dropdownlist ul li a:hover:not(.header) {
+  background-color: #FFFCFF;
+}
+
+body .main #infobox .infobox-image {
+  width: 200px;
+  height: 300px;
+  border: solid 1px #9988889f;
+}
+
+body .main #infobox .infobox-image #pjref {
+  width: 100%;
+  height: 100%;
+}
+
+body .main #infobox .infobox-header {
+  background-color: #9988889f;
+}
+
+body .main #infobox .show {
+  display: block;
+}
+
+body .main #infobox .prop {
+  width: 40%;
+  text-align: left;
+  border: solid 1px #9988889f;
+}
+
+body .main #infobox .info {
+  width: 60%;
+  text-align: left;
+  border: solid 1px #9988889f;
+}
+
+body .main #listasimplediv {
+  display: none;
+}
+
+body .main #listasimplediv #thyearbar {
+  background-color: #9988889f;
+}
+
+body .main #listasimplediv #thyearbar #yearbar {
+  height: 30px;
+  text-align: center;
+  font-size: large;
+  border: none;
+  background-color: transparent;
+  position: inherit;
+  width: 100%;
+}
+
+body .main #listasimplediv #tablasimple {
+  border-collapse: collapse;
+  border: solid 1px #9988889f;
+  position: relative;
+  height: auto;
+  margin: 0 auto;
+  padding: 10px;
+  width: 80%;
+  text-align: left;
+}
+
+body .main #listasimplediv #tablasimple td, body .main #listasimplediv #tablasimple th {
+  border: solid 1px #9988889f;
+  padding: 8px;
+}
+
+body .main #listasimplediv #tablasimple tr:nth-child(even) {
+  background-color: #99888823;
+}
+
+body .main #listasimplediv #tablasimple tr:hover {
+  background-color: #FFFCFF;
+}
+
+@media only screen and (max-width: 600px) {
+  body .log {
+    margin-left: 15%;
+    margin-right: 15%;
+  }
+  body .main {
+    width: auto;
+    min-height: 500px;
+    height: auto;
+    padding: 15px;
+  }
+}
+
+@media only screen and (min-width: 601px) {
+  body .log {
+    margin-left: 15%;
+    margin-right: 15%;
+  }
+  body .main {
+    display: -ms-grid;
+    display: grid;
+        grid-template-areas: 'nav infobox' 'lista infobox';
+    margin: 100px 10%;
+    padding: 20px;
+  }
+  body .main #switch1 {
+    display: none;
+  }
+  body .main .menu {
+    margin: 0 20%;
+  }
+  body .main #infoboxdiv {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 2;
+    -ms-grid-column: 2;
+    grid-area: infobox;
+    display: block;
+  }
+  body .main #listasimplediv {
+    -ms-grid-row: 2;
+    -ms-grid-column: 1;
+    grid-area: lista;
+    display: block;
+  }
+}
+
+@media only screen and (min-width: 900px) {
+  body .log {
+    margin-left: 30%;
+    margin-right: 30%;
+  }
+  body .main {
+    display: -ms-grid;
+    display: grid;
+        grid-template-areas: 'nav infobox' 'lista infobox';
+    margin: 100px 10%;
+    padding: 20px;
+  }
+  body .main #switch1 {
+    display: none;
+  }
+  body .main .menu {
+    margin: 0 30%;
+  }
+  body .main #infoboxdiv {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 2;
+    -ms-grid-column: 2;
+    grid-area: infobox;
+    display: block;
+  }
+  body .main #listasimplediv {
+    -ms-grid-row: 2;
+    -ms-grid-column: 1;
+    grid-area: lista;
+    display: block;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  body .log {
+    margin-left: 35%;
+    margin-right: 35%;
+  }
+  body .main {
+    display: -ms-grid;
+    display: grid;
+        grid-template-areas: 'nav infobox' 'lista infobox';
+    margin: 100px 20%;
+    padding: 20px;
+  }
+  body .main #switch1 {
+    display: none;
+  }
+  body .main .menu {
+    margin: 0 30%;
+  }
+  body .main #infoboxdiv {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 2;
+    -ms-grid-column: 2;
+    grid-area: infobox;
+    display: block;
+  }
+  body .main #listasimplediv {
+    -ms-grid-row: 2;
+    -ms-grid-column: 1;
+    grid-area: lista;
+    display: block;
+  }
+}
+
+@media only screen and (min-width: 1500px) {
+  body .log {
+    margin-left: 40%;
+    margin-right: 40%;
+  }
+  body .main {
+    display: -ms-grid;
+    display: grid;
+        grid-template-areas: 'nav infobox' 'lista infobox';
+    margin: 100px 20%;
+    padding: 20px;
+  }
+  body .main #switch1 {
+    display: none;
+  }
+  body .main .menu {
+    margin: 0 30%;
+  }
+  body .main #infoboxdiv {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 2;
+    -ms-grid-column: 2;
+    grid-area: infobox;
+    display: block;
+  }
+  body .main #listasimplediv {
+    -ms-grid-row: 2;
+    -ms-grid-column: 1;
+    grid-area: lista;
+    display: block;
+  }
+}
+
+@media only screen and (min-width: 1800px) {
+  body .log {
+    margin-left: 40%;
+    margin-right: 40%;
+  }
+  body .main {
+    display: -ms-grid;
+    display: grid;
+        grid-template-areas: 'nav infobox' 'lista infobox';
+    margin: 100px 30%;
+    padding: 20px;
+  }
+  body .main #switch1 {
+    display: none;
+  }
+  body .main .menu {
+    margin: 0 25%;
+  }
+  body .main #infoboxdiv {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 2;
+    -ms-grid-column: 2;
+    grid-area: infobox;
+    display: block;
+  }
+  body .main #listasimplediv {
+    -ms-grid-row: 2;
+    -ms-grid-column: 1;
+    grid-area: lista;
+    display: block;
+  }
+}
+
+@media only screen and (min-width: 2200px) {
+  body .main {
+    display: -ms-grid;
+    display: grid;
+        grid-template-areas: 'nav infobox' 'lista infobox';
+    margin: 100px 30%;
+    padding: 20px;
+  }
+  body .main #switch1 {
+    display: none;
+  }
+  body .main .menu {
+    margin: 0 30%;
+  }
+  body .main #infoboxdiv {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 2;
+    -ms-grid-column: 2;
+    grid-area: infobox;
+    display: block;
+  }
+  body .main #listasimplediv {
+    -ms-grid-row: 2;
+    -ms-grid-column: 1;
+    grid-area: lista;
+    display: block;
+  }
+}
+/*# sourceMappingURL=main.css.map */

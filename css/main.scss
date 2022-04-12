@@ -1,0 +1,244 @@
+@import "variants";
+
+body {
+  background:url("../public/sun-pattern.png");
+  background-blend-mode: multiply;
+  background-color:rgba(76, 85, 110, 0.904);
+  height:500px;
+  background-position: topleft;
+  background-repeat: repeat;
+  font-family: "Oxygen", sans-serif;
+
+  
+  .log {
+    display: flex;
+    flex-direction: column;
+    top: 0px;
+    left: 0px;
+    width: auto;
+    min-height: 500px;
+    height: auto;
+    padding-right: 4%;
+    margin: 30%;
+    margin-top: 280px;
+
+    
+    text-align: center;
+    align-content: center;
+
+    #user, #pass {
+      height: 50px;
+      border: none;
+      border-radius: 2px;
+      color: #000000;
+      font-size: 17px;
+      display: block;
+      width: 100%;
+      background-color: #fff;
+      padding-left: 10px;
+    }
+
+    #sub {
+      cursor: pointer;
+      width: 70%;
+      height: 50px;
+      float: none;
+      border-radius: 40px;
+      background-color: #73C2BE;
+      color: $lightcolor;
+      font-size: 17px;
+      line-height: 20px;
+      border: none;
+    
+    }
+
+  }
+  
+  
+  .main {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    border-radius: 10px;
+    background-color: #ffffffd3;
+    top: 0px;
+    left: 0px;
+    width: auto;
+    min-height: 500px;
+    height: auto;
+    padding: 15px;
+
+    .menu{
+      list-style-type: none;
+      overflow: hidden;
+      position: inherit;
+      width: 220px;
+      height: auto;
+      margin: 0 auto;
+      padding: 10px;
+
+      .menuBut, .here{    
+        float: left;
+        text-align: center;
+        text-decoration: none;
+        font-weight: 400;
+        border-radius: 12px;
+        padding: 5px;
+        margin: 5px;
+        line-height: 2;
+        cursor: pointer;
+        border: $defboder;
+
+      }
+
+      img:hover {
+        border: solid 1px $lightcolor;
+      }
+  
+    }
+    
+    #infobox {
+      border-collapse: collapse;
+      border: $defboder;
+      position: relative;
+      width: 50px;
+      height: auto;
+      margin: 0 auto;
+      padding: 10px;
+
+      tr:nth-child(odd){
+        background-color: $tercolor;
+      }
+      
+      #searchbar {
+        height: 30px;
+        text-align: center;
+        font-size: large;
+        border: none;
+        background-color: transparent;
+        position: inherit;
+      }
+
+      .dropdownlist {
+        display: none;
+        position: absolute;
+        overflow: auto;
+        border: 1px solid #ddd;
+        text-align: left;
+        font-size: 16px;
+        width: 100%;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+
+        
+        ul {
+          list-style-type: none;
+          padding: 0px;
+          margin: 0px;
+        }
+        
+        ul li a {
+          border: 1px solid #ddd;
+          margin-top: -1px;
+          background-color: rgba(255, 255, 255, 0.623);
+          padding: 12px;
+          text-decoration: none;
+          font-size: 15px;
+          color: black;
+          display: block;
+          cursor: pointer
+        }
+        
+        ul li a:hover:not(.header) {
+          background-color: $lightcolor;
+        }
+
+      }
+      
+      .infobox-image{
+        width: 200px;
+        height: 300px;
+        border: $defboder;
+
+        #pjref {
+          width: 100%;
+          height: 100%;
+        }
+      }
+
+      .infobox-header {
+        background-color: $seccolor;
+      }
+
+      .show {
+        display: block;
+      }
+
+      .prop {
+        width: 40%;
+        text-align: left;
+        border: $defboder;
+      }
+      .info {
+        width: 60%;
+        text-align: left;
+        border: $defboder;
+      }
+
+    }  
+
+    #listasimplediv {
+      display: none;
+
+      #thyearbar {
+        background-color: $seccolor;
+
+        #yearbar {
+          height: 30px;
+          text-align: center;
+          font-size: large;
+          border: none;
+          background-color: transparent;
+          position: inherit;
+          width: 100%;
+        }
+
+      }
+
+      #tablasimple {
+        border-collapse: collapse;
+        border: $defboder;
+        position: relative;
+        height: auto;
+        margin: 0 auto;
+        padding: 10px;
+        width: 80%;
+        text-align: left;
+      
+      td, th {
+        border: $defboder;
+        padding: 8px;
+      }
+      
+      tr:nth-child(even){
+        background-color: $tercolor;
+      }
+      
+      tr:hover {background-color: $lightcolor;}
+    
+    }
+      
+    }
+
+      
+  }
+
+  
+
+
+  @import "mediaq";
+
+}
+
+

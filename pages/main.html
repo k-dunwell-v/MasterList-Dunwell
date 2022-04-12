@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <head>
+
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- Google Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap" rel="stylesheet">
+        
+
+        <link rel="stylesheet" href="../css/main.css">
+
+        <title>Javascript</title>
+
+    </head>
+
+
+    <body>
+
+        <div class="main">
+
+            <nav>
+
+                <ul class="menu">
+
+                    <li>
+                        <img id="switch1" class="menuBut" onclick="switchcontent()" src="https://img.icons8.com/ios-glyphs/30/000000/list--v1.png"/>
+                        
+                    </li>
+                    
+                    <li>
+                        <img class="menuBut" onclick=validuser(0) src="https://img.icons8.com/ios-glyphs/30/000000/add--v1.png"/>
+                    </li>
+
+                    <li>
+                        <img class="menuBut" onclick="validuser(1)" src="https://img.icons8.com/ios-glyphs/30/000000/edit--v1.png"/>
+                    </li>
+
+                    <li>
+                        <img class="menuBut" onclick="validuser(2)" src="https://img.icons8.com/ios-glyphs/30/000000/delete-sign.png"/>
+                    </li>
+                    
+                </ul>
+
+                <hr>
+
+            </nav>
+            
+            <div id="infoboxdiv">
+
+                <table id="infobox">
+                    <tbody>
+    
+                        <tr>
+                            <th colspan=3 class="infobox-header" id="infobox-searchbar">
+                                <input id="searchbar" type="search" onclick="dropdown()" onkeyup="filter()" placeholder="Ingresar nombre">
+    
+                                <div id="namelist" class="dropdownlist">
+                                    <ul>
+                                        <li id="varnamelist"></li>
+                                    </ul>
+                                </div>
+                            </th>
+                        </tr>
+                            
+                        <tr>
+                            <td colspan=3 class="infobox-image" id="0"></td>
+                        </tr>
+    
+                        <tr>
+                            <th colspan=3 class="infobox-header">Información personal</th>
+                        </tr>
+                        
+                        <tr>
+                            <th class="prop"><span>Otros nombres</span></th>
+                            <td class="info" id="1"></td>
+                        </tr>
+                        
+                    
+                        <tr>
+                            <th class="prop">Nacimiento</th>
+                            <td class="info" id="2"></td>
+                        </tr>
+                        
+                        <tr>
+                            <th class="prop">Idiomas</th>
+                            <td class="info" id="3"></td>
+                        </tr>
+                        
+                        <tr>
+                            <th class="prop">JCF/EoP</th>
+                            <td class="info" id="4"></td>
+                        </tr>
+    
+                        <tr>
+                            <th class="prop">Estatura</th>
+                            <td class="info" id="5"></td>
+                        </tr>
+    
+                        <tr>
+                            <th class="prop">Especie</th>
+                            <td class="info" id="6"></td>
+                        </tr>
+    
+                        <tr>
+                            <th colspan=3 class="infobox-header">Familia</th>
+                        </tr>
+    
+                        <tr>
+                            <th class="prop">Padres</th>
+                            <td class="info" id="7"></td>
+                        </tr>
+    
+                        <tr>
+                            <th class="prop">Hermanos</th>
+                            <td class="info" id="8"></td>
+                        </tr>
+    
+                        <tr>
+                            <th class="prop">Pareja</th>
+                            <td class="info" id="9"></td>
+                        </tr>
+    
+                        <tr>
+                            <th class="prop">Hijos</th>
+                            <td class="info" id="10"></td>
+                        </tr>
+                        
+                    </tbody>
+                </table>
+
+            </div>
+
+            <div id=listasimplediv>
+
+                <table id="tablasimple">
+
+                    <tr>
+                        <th colspan=2 id="thyearbar">
+                            <input id="yearbar" type="number" onkeyup="agepj()" placeholder="Ingresar año">
+                        </th>
+                    </tr>
+
+                    <tbody id="listasimple">
+
+                    </tbody>
+                </table>
+
+            </div>
+
+        </div>
+
+        <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+        <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+        <script src="../js/script.js"></script>
+    </body>
+
+</html>
+
+
+
